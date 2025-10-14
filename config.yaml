@@ -1,0 +1,24 @@
+# General Configuration
+general:
+  log_dir: "logs"
+  bind_address: "0.0.0.0"  # Listen on all interfaces
+
+# Service Configuration
+services:
+  # SSH Honeypot
+  ssh:
+    enabled: true
+    port: 2222
+    banner: "SSH-2.0-OpenSSH_7.4"
+  
+  # HTTP Honeypot
+  http:
+    enabled: true
+    port: 8080
+    server_name: "Apache/2.4.41 (Ubuntu)"
+  
+  # FTP Honeypot
+  ftp:
+    enabled: true
+    port: 2121
+    banner: "220 FTP Server Ready"

@@ -1,0 +1,15 @@
+# Core dependencies
+twisted>=23.10.0
+paramiko>=3.4.0
+cryptography>=41.0.0
+
+# Logging and data handling
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Configuration
+pyyaml>=6.0.1
+
+# Optional: For database logging
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0
